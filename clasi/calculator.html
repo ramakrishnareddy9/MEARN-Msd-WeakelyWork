@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="calculator.css" />
+  <title>Simple Calculator</title>
+</head>
+
+<body>
+  <div class="title">Basic Calculator</div>
+  <table>
+    <tr class="resultcontainer">
+      <td colspan="4" id="displayer"></td>
+    </tr>
+    <tr>
+      <td><button onclick="updateDisplay('1')">1</button></td>
+      <td><button onclick="updateDisplay('2')">2</button></td>
+      <td><button onclick="updateDisplay('3')">3</button></td>
+      <td><button onclick="updateDisplay('+')">+</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="updateDisplay('4')">4</button></td>
+      <td><button onclick="updateDisplay('5')">5</button></td>
+      <td><button onclick="updateDisplay('6')">6</button></td>
+      <td><button onclick="updateDisplay('-')">-</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="updateDisplay('7')">7</button></td>
+      <td><button onclick="updateDisplay('8')">8</button></td>
+      <td><button onclick="updateDisplay('9')">9</button></td>
+      <td><button onclick="updateDisplay('*')">*</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="updateDisplay('0')">0</button></td>
+      <td><button onclick="clearDisplay()">Clr</button></td>
+      <td><button onclick="updateDisplay('/')">/</button></td>
+      <td class="submit-btn" onclick="calculateResult()">
+        <button>=</button>
+      </td>
+    </tr>
+  </table>
+  <script src="./calculator.js"></script>
+</body>
+
+</html>
