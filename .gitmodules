@@ -7,3 +7,6 @@
 [submodule "MERN-Work/MSD-Assignment2"]
 	path = MERN-Work/MSD-Assignment2
 	url = https://github.com/ramakrishnareddy9/MSD-Assignment2.git
+[submodule "MSD-Assignment2"]
+	path = MSD-Assignment2
+	url = https://github.com/ramakrishnareddy9/MSD-Assignment2.git
